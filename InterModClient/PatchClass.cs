@@ -100,7 +100,6 @@ public class PatchClass
             return;
         }
 
-        Debugger.Break();
         if (mod.Instance is InterModHost.Mod hostMod && hostMod.Patch is InterModHost.HostPatchClass host)
             ModManager.Log($"Found host: {host.InstanceCounter++}");
         else
