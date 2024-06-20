@@ -90,7 +90,7 @@ public class PatchClass
     [CommandHandler("test", AccessLevel.Player, CommandHandlerFlag.None)]
     public static void HandleInterModTest(Session session, params string[] parameters)
     {
-        ModManager.Log($"{InterModHost.PatchClass.Counter++}");
+        ModManager.Log($"{InterModHost.HostPatchClass.Counter++}");
 
         //...or get the ModContainer -> IHarmonyMod -> as the type of the desired mod -> do things
         var mod = ModManager.GetModContainerByName(nameof(InterModHost));
@@ -100,13 +100,13 @@ public class PatchClass
             return;
         }
 
-        if (mod.Instance is InterModHost.PatchClass host)
+        if (mod.Instance is InterModHost.HostPatchClass host)
             ModManager.Log($"Found host: {host.InstanceCounter++}");
         else
         {
             try
             {
-                var castHost = (InterModHost.PatchClass)mod.Instance;
+                var castHost = (InterModHost.HostPatchClass)mod.Instance;
                 ModManager.Log($"Found host: {castHost.InstanceCounter++}");
                 return;
             }

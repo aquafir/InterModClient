@@ -21,7 +21,7 @@ public class Mod : IHarmonyMod
     private DateTime _lastChange = DateTime.Now;
     private readonly TimeSpan _reloadInterval = TimeSpan.FromSeconds(3);
 
-    public PatchClass Patch = new();
+    public HostPatchClass Patch = new();
     public static ModState State = ModState.None;
     #endregion
 

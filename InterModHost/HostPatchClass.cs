@@ -1,7 +1,7 @@
 ﻿namespace InterModHost;
 
 [HarmonyPatch]
-public class PatchClass
+public class HostPatchClass
 {
     #region Settings
     const int RETRIES = 10;
