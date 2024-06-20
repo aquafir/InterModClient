@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterModClient", "InterModClient\InterModClient.csproj", "{6E8B8CBB-8240-4998-9CC6-D13537104A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterModHost", "InterModHost\InterModHost.csproj", "{982E2C32-0C14-4DD3-8891-5BE8B40027B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E8B8CBB-8240-4998-9CC6-D13537104A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8B8CBB-8240-4998-9CC6-D13537104A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8B8CBB-8240-4998-9CC6-D13537104A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8B8CBB-8240-4998-9CC6-D13537104A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982E2C32-0C14-4DD3-8891-5BE8B40027B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982E2C32-0C14-4DD3-8891-5BE8B40027B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982E2C32-0C14-4DD3-8891-5BE8B40027B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982E2C32-0C14-4DD3-8891-5BE8B40027B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CA4BEBB-B2EE-458F-A23A-C7AD03498A1C}
+	EndGlobalSection
+EndGlobal
